@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oops... It's me again 😘🤫</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #1f002b, #000000, #3a002c);
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 420px;
+      background: rgba(255, 255, 255, 0.07);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 24px;
+      padding: 24px;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(226, 0, 116, 0.2);
+      border: 1px solid #e20074;
+      color: #ff66c4;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+      background: linear-gradient(45deg, #ff416c, #8a2387);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p.subtitle {
+      font-size: 0.9rem;
+      color: #b3b3b3;
+      margin-bottom: 20px;
+    }
+
+    /* Player do Spotify Embutido */
+    .spotify-container {
+      width: 100%;
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    }
+
+    /* Seção da Letra em Destaque */
+    .lyrics-box {
+      background: rgba(0, 0, 0, 0.4);
+      border-left: 4px solid #ff416c;
+      border-radius: 12px;
+      padding: 16px;
+      text-align: left;
+      margin-top: 10px;
+    }
+
+    .lyrics-quote {
+      font-style: italic;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: #eaeaea;
+    }
+
+    .lyrics-author {
+      display: block;
+      margin-top: 10px;
+      font-style: normal;
+      font-size: 0.8rem;
+      color: #ff66c4;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 0.75rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="badge">NFC Exclusive</div>
+    
+    <h1>Oops... It's me again 😘🤫</h1>
+    <p class="subtitle">Pop, nostalgia e os melhores hits funk 2000s/2010s</p>
+
+    <!-- Player do Spotify da sua Playlist -->
+    <div class="spotify-container">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2bJo2KlHc726K06E0JZCBq?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+
+    <!-- Trecho da Letra em Destaque -->
+    <div class="lyrics-box">
+      <p class="lyrics-quote">
+        "Naquele tempo eu era cega<br>
+        Hoje a minha visão é raio X"
+      </p>
+      <span class="lyrics-author">— Meiga e Abusada (Anitta)</span>
+    </div>
+
+    <footer>
+      Escaneado via NFC • Curadoria Exclusiva
+    </footer>
+  </div>
+
+</body>
+</html>
